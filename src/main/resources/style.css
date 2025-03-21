@@ -1,0 +1,34 @@
+.root {
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-radius: 20;
+    -fx-padding: 5 10 5 10;
+}
+
+.label {
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+/* Ajuster la largeur de la barre de défilement */
+.scroll-bar:vertical {
+    -fx-pref-width: 8px; /* Largeur plus fine pour la barre verticale */
+}
+
+.scroll-bar:horizontal {
+    -fx-pref-height: 8px; /* Hauteur plus fine pour la barre horizontale */
+}
+
+/* Style pour le pouce (la partie que vous faites glisser) */
+.scroll-bar .thumb {
+    -fx-background-color: #888; /* Couleur de la barre */
+    -fx-background-insets: 0;   /* Marges internes */
+    -fx-background-radius: 4px; /* Coins arrondis */
+}
+
+/* Style pour le pouce au survol */
+.scroll-bar .thumb:hover {
+    -fx-background-color: #555; /* Couleur au survol */
+}
