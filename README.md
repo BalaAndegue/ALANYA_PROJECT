@@ -20,10 +20,10 @@
 ![Aperçu 3](./user_interface.png)
 
 
-### **3. Fenêtre des Paramètres Utilisateur**
+### **3. Fenêtre des Chat + Utilisateur**
 ![Aperçu 1](./chat_interface.png)
 
-Ajoutez vos captures d’écran dans le dossier `screenshots` à la racine du projet.
+
 
 ---
 
